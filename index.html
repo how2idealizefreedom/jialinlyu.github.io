@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吕佳霖 · 个人主页</title>
+<meta name="description" content="吕佳霖 — 南开大学电子信息科学与技术本科，嵌入式系统 / FPGA / 控制算法方向。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="topnav"><div class="inner">
+  <span class="brand">吕佳霖 <small style="color:var(--muted);font-weight:400;">NKU · EE</small></span>
+  <button class="nav-toggle" aria-label="菜单">☰</button>
+  <div class="navlinks" id="navlinks">
+    <a href="#about">关于</a><a href="#education">教育</a><a href="#internship">实习</a>
+    <a href="#research">科研</a><a href="#projects">项目</a><a href="#skills">技能</a><a href="#awards">荣誉</a>
+  </div>
+</div></nav>
+
+<header class="hero wrap"><div class="hero-grid">
+  <div>
+    <h1>吕佳霖</h1>
+    <p class="role">南开大学 · 电子信息与光学工程学院 · 本科三年级</p>
+    <span class="tag">求职 / 申请方向：嵌入式系统 · FPGA · 控制算法</span>
+    <p class="bio">我专注于嵌入式系统与 FPGA 开发，做过电机控制、数字电路与边缘 AI 相关项目。曾参与全国大学生电子设计竞赛（H 题）与现代光学研究所的嵌入式运动控制科研，熟悉 STM32 / TI MSPM0 / Renesas 平台及 Keil、ModelSim、LabVIEW 等工具。</p>
+    
+      <div class="contact">
+        <a href="assets/CV.pdf">简历 CV</a>
+        <a href="mailto:derricklv256@outlook.com">Email</a>
+        <a href="https://github.com/how2idealizefreedom" target="_blank" rel="noopener">GitHub</a>
+      </div>
+  </div>
+  <img class="avatar" src="assets/avatar.svg" alt="吕佳霖 照片">
+</div></header>
+
+<main class="wrap">
+  <section id="about"><h2 class="sec-title">关于我</h2>
+    <p style="color:var(--muted);max-width:760px;">南开大学电子信息科学与技术专业本科（2024 级）。主攻嵌入式系统与 FPGA：从 STM32 / Renesas / TI MSPM0 外设驱动、电机 PID 控制到数字系统设计，均有实际项目落地。目前聚焦车载嵌入式方向，正在补充 Linux、CAN / SocketCAN 与 AUTOSAR 等车载开发所需技能。</p></section>
+
+  <section id="education"><h2 class="sec-title">教育背景</h2>
+    <div class="card"><div class="head"><h3>南开大学</h3><span class="meta">2024.08 – 至今</span></div>
+      <div class="where">电子信息科学与技术 · 本科</div>
+      <ul><li>GPA：3.468 / 4 ｜ 专业排名：39 / 104</li>
+      <li>核心课程：数字电子技术、模拟电子技术、电路基础、信号与系统、计算机原理、
+        数据结构与算法、程序设计基础、Verilog 数字系统设计、射频与微波技术等</li></ul></div></section>
+
+  <section id="internship"><h2 class="sec-title">实习经历</h2>
+    <div class="card"><div class="head"><h3>XXXX 科技有限公司</h3><span class="meta">2026.XX – 2026.XX</span></div>
+      <div class="where">嵌入式开发实习生</div>
+      <ul><li>职责与成果待补充。</li></ul></div></section>
+
+  <section id="research"><h2 class="sec-title">科研经历</h2>
+    <div class="card"><div class="head"><h3>光学扫描与嵌入式运动控制科研项目</h3><span class="meta">2026.01 – 2026.06</span></div>
+      <div class="where">南开大学现代光学研究所</div>
+      <ul><li>负责双旋转超表面光学扫描系统的步进电机控制，基于 Keil 实现电机脉冲驱动与变速控制；
+        在约 1ms 脉冲间隔下完成双电机运行测试，完成高速运行参数优化。</li>
+        <li>搭建并调试 LabVIEW–MCU–步进电机控制链路，实现上位机对旋转速度及运动参数的可编程控制。</li>
+        <li>参与双旋转超表面及超透镜光路实验搭建与调试，将电机旋转运动与光学器件姿态变化结合，
+          完成光束扫描实验验证。</li></ul></div></section>
+
+  <section id="projects"><h2 class="sec-title">项目经历</h2>
+    <div class="card"><div class="head"><h3>车载平衡滚球运动控制系统</h3><span class="meta">2026.08</span></div>
+      <div class="where">2026 全国大学生电子设计竞赛 H 题 · 组长</div>
+      <ul><li>基于 TI MSPM0G3507 构建 200Hz 实时控制系统，实现八路红外循迹、差速 PD 控制、
+        步进电机摆杆控制及视觉数据通信。</li>
+        <li>完成 K230 视觉、UART + A4988 步进驱动、四轮差速底盘系统集成，实现车辆循迹与钢球位置控制。</li></ul></div>
+    <div class="card"><div class="head"><h3>自主移动机器人 · FPGA 化 · 边缘 AI</h3><span class="meta">2026.09 – 至今</span></div>
+      <div class="where">个人项目（目标驱动）</div>
+      <ul><li>目标：基于任意平台做一个扎实的移动机器人；逐步推进 FPGA 化与边缘 AI 落地。</li>
+        <li>练习 STM32 电机控制、ROS / 机器人导航、FPGA 电机控制、RK3588 + YOLO 等能力。</li></ul></div>
+    <div class="card"><div class="head"><h3>GitHub 开源项目复现</h3><span class="meta">2026.09 – 至今</span></div>
+      <div class="where">训练与积累</div>
+      <ul><li>复现一个 FPGA PID；复现一个 YOLO（RK3588）→ 用到自己的机器人。</li>
+        <li>复现一个路径规划算法 → 改成自己的导航模块。</li>
+        <li>涵盖 STM32 电机控制、ROS 导航、FPGA 电机控制等方向。</li></ul></div></section>
+
+  <section id="skills"><h2 class="sec-title">专业技能</h2>
+    <div class="skillgrid">
+      <div class="card"><h3>嵌入式开发</h3><p>基于 STM32、Renesas RA4M2、TI MSPM0 平台，熟悉 GPIO、Timer、PWM、ADC、DMA、UART、SPI、I²C、CAN、USB 等常用外设。</p></div>
+      <div class="card"><h3>FPGA / 数字电路</h3><p>熟悉 Verilog HDL；具备数字系统设计与仿真能力（ModelSim）。</p></div>
+      <div class="card"><h3>控制与算法</h3><p>掌握 PID 控制、编码器测速、PWM 控制及基本信号采集与处理方法。</p></div>
+      <div class="card"><h3>编程语言</h3><p>C / C++、Verilog HDL、Python、MATLAB。</p></div>
+      <div class="card"><h3>开发工具</h3><p>Keil、STM32CubeMX、e² studio、ModelSim、Multisim、MATLAB、Git。</p></div>
+      <div class="card"><h3>硬件工具</h3><p>熟悉示波器、逻辑分析仪、万用表等常用测试仪器，具备基础 PCB 焊接与硬件调试能力。</p></div>
+    </div></section>
+
+  <section id="awards"><h2 class="sec-title">荣誉与其他</h2>
+    <ul class="awards">
+      <li><span class="yr">2026</span><span>全国大学生电子设计竞赛 · 成功参赛奖</span></li>
+      <li><span class="yr">2025</span><span>南开大学 · 2025 年度优秀学生</span></li>
+      <li><span class="yr">英语</span><span>CET-4 571 ／ CET-6 580</span></li>
+    </ul></section>
+</main>
+
+<footer><div class="wrap">© <span id="year"></span> 吕佳霖 · 南开大学电子信息与光学工程学院</div></footer>
+<script>
+  document.getElementById('year').textContent=new Date().getFullYear();
+  var t=document.querySelector('.nav-toggle'),n=document.getElementById('navlinks');
+  if(t)t.addEventListener('click',function(){n.classList.toggle('open');});
+  n&&n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');});});
+</script>
+</body></html>
