@@ -20,7 +20,7 @@ python -m http.server 8000
 - `index.html` — 页面结构与内容
 - `style.css` — 样式
 - `assets/CV.pdf` — 简历 PDF
-- `assets/avatar.svg` — 头像占位（替换为本人照片即可生效）
+- `assets/avatar.jpg` — 头像照片
 
 ## 内容维护
 页面内容（教育、项目、技能等）直接在 `index.html` 中编辑；视觉样式集中在 `style.css` 顶部的 CSS 变量（`--bg` / `--text` / `--accent` 等），改色或改字体只需调整这几个变量。
